@@ -91,7 +91,7 @@ export default {
         "slide-up": {
           from: {
             opacity: "0",
-            transform: "translateY(20px)",
+            transform: "translateY(30px)",
           },
           to: {
             opacity: "1",
@@ -101,20 +101,58 @@ export default {
         "slide-in-right": {
           from: {
             opacity: "0",
-            transform: "translateX(-20px)",
+            transform: "translateX(-30px)",
           },
           to: {
             opacity: "1",
             transform: "translateX(0)",
           },
         },
+        "glow-in": {
+          from: {
+            opacity: "0",
+            boxShadow: "0 0 0 rgba(200, 220, 255, 0)",
+          },
+          to: {
+            opacity: "1",
+            boxShadow: "0 0 20px rgba(200, 220, 255, 0.3)",
+          },
+        },
+        "float": {
+          "0%, 100%": {
+            transform: "translateY(0px)",
+          },
+          "50%": {
+            transform: "translateY(-10px)",
+          },
+        },
+        "pulse-glow": {
+          "0%, 100%": {
+            boxShadow: "0 0 20px rgba(200, 220, 255, 0.3)",
+          },
+          "50%": {
+            boxShadow: "0 0 40px rgba(200, 220, 255, 0.5)",
+          },
+        },
+        "shimmer": {
+          "0%": {
+            backgroundPosition: "-1000px 0",
+          },
+          "100%": {
+            backgroundPosition: "1000px 0",
+          },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
-        "fade-in": "fade-in 0.6s ease-out",
-        "slide-up": "slide-up 0.6s ease-out",
-        "slide-in-right": "slide-in-right 0.6s ease-out",
+        "fade-in": "fade-in 0.7s ease-out",
+        "slide-up": "slide-up 0.8s ease-out",
+        "slide-in-right": "slide-in-right 0.8s ease-out",
+        "glow-in": "glow-in 0.9s ease-out",
+        "float": "float 3s ease-in-out infinite",
+        "pulse-glow": "pulse-glow 2s ease-in-out infinite",
+        "shimmer": "shimmer 2s infinite",
       },
     },
   },
