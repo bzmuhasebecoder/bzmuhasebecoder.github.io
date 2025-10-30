@@ -94,6 +94,12 @@
     --sidebar-accent-foreground: 0 0% 100%;
     --sidebar-border: 0 0% 15%;
     --sidebar-ring: 200 80% 55%;
+
+    --neon-pink: #ffb3ff;
+    --neon-green: #00ffb5;
+    --neon-red: #ff537a;
+    --neon-yellow: #ffffb5;
+    --neon-blue: #008fff;
   }
 }
 
