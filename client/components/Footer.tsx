@@ -16,7 +16,10 @@ export const Footer = () => {
                 href="mailto:swicenta@gmail.com"
                 className="flex items-center gap-3 text-foreground/80 hover:text-neon-blue transition-all duration-300 group"
               >
-                <Mail size={20} className="group-hover:scale-110 text-neon-blue" />
+                <Mail
+                  size={20}
+                  className="group-hover:scale-110 text-neon-blue"
+                />
                 <span>swicenta@gmail.com</span>
               </a>
               <a
@@ -25,7 +28,10 @@ export const Footer = () => {
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 text-foreground/80 hover:text-neon-pink transition-all duration-300 group"
               >
-                <Instagram size={20} className="group-hover:scale-110 text-neon-pink" />
+                <Instagram
+                  size={20}
+                  className="group-hover:scale-110 text-neon-pink"
+                />
                 <span>@dogukan.1967</span>
               </a>
             </div>
@@ -42,7 +48,10 @@ export const Footer = () => {
                   className="hover:text-neon-green transition-all duration-300 flex items-center gap-2 group"
                 >
                   Hakkımda
-                  <ArrowRight size={16} className="opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all text-neon-green" />
+                  <ArrowRight
+                    size={16}
+                    className="opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all text-neon-green"
+                  />
                 </a>
               </li>
               <li>
@@ -51,7 +60,10 @@ export const Footer = () => {
                   className="hover:text-neon-pink transition-all duration-300 flex items-center gap-2 group"
                 >
                   Projeler
-                  <ArrowRight size={16} className="opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all text-neon-pink" />
+                  <ArrowRight
+                    size={16}
+                    className="opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all text-neon-pink"
+                  />
                 </a>
               </li>
               <li>
@@ -60,7 +72,10 @@ export const Footer = () => {
                   className="hover:text-neon-yellow transition-all duration-300 flex items-center gap-2 group"
                 >
                   Yazılarım
-                  <ArrowRight size={16} className="opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all text-neon-yellow" />
+                  <ArrowRight
+                    size={16}
+                    className="opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all text-neon-yellow"
+                  />
                 </a>
               </li>
               <li>
@@ -69,7 +84,10 @@ export const Footer = () => {
                   className="hover:text-neon-red transition-all duration-300 flex items-center gap-2 group"
                 >
                   Konuşmalar
-                  <ArrowRight size={16} className="opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all text-neon-red" />
+                  <ArrowRight
+                    size={16}
+                    className="opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all text-neon-red"
+                  />
                 </a>
               </li>
               <li>
@@ -78,7 +96,10 @@ export const Footer = () => {
                   className="hover:text-neon-blue transition-all duration-300 flex items-center gap-2 group"
                 >
                   İletişim
-                  <ArrowRight size={16} className="opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all text-neon-blue" />
+                  <ArrowRight
+                    size={16}
+                    className="opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all text-neon-blue"
+                  />
                 </a>
               </li>
             </ul>
@@ -111,7 +132,11 @@ export const Footer = () => {
 
         <div className="border-t border-neon-blue/20 pt-8 text-center text-foreground/60">
           <p>
-            &copy; 2025 <span className="bg-gradient-to-r from-neon-blue to-neon-pink bg-clip-text text-transparent font-semibold">Wicenta</span>. Tüm hakları saklıdır.
+            &copy; 2025{" "}
+            <span className="bg-gradient-to-r from-neon-blue to-neon-pink bg-clip-text text-transparent font-semibold">
+              Wicenta
+            </span>
+            . Tüm hakları saklıdır.
           </p>
         </div>
       </div>

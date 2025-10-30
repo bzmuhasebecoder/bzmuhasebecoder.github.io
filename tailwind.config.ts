@@ -125,7 +125,7 @@ export default {
             boxShadow: "0 0 20px rgba(200, 220, 255, 0.3)",
           },
         },
-        "float": {
+        float: {
           "0%, 100%": {
             transform: "translateY(0px)",
           },
@@ -141,7 +141,7 @@ export default {
             boxShadow: "0 0 40px rgba(200, 220, 255, 0.5)",
           },
         },
-        "shimmer": {
+        shimmer: {
           "0%": {
             backgroundPosition: "-1000px 0",
           },
@@ -157,9 +157,9 @@ export default {
         "slide-up": "slide-up 0.8s ease-out",
         "slide-in-right": "slide-in-right 0.8s ease-out",
         "glow-in": "glow-in 0.9s ease-out",
-        "float": "float 3s ease-in-out infinite",
+        float: "float 3s ease-in-out infinite",
         "pulse-glow": "pulse-glow 2s ease-in-out infinite",
-        "shimmer": "shimmer 2s infinite",
+        shimmer: "shimmer 2s infinite",
       },
     },
   },
