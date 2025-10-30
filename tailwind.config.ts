@@ -57,6 +57,13 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        neon: {
+          pink: "#ffb3ff",
+          green: "#00ffb5",
+          red: "#ff537a",
+          yellow: "#ffffb5",
+          blue: "#008fff",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
