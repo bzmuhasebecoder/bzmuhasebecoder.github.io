@@ -1,25 +1,45 @@
-import { useNavigate } from "react-router-dom";
-import { Button } from "@/components/ui/button";
+import { Mail, Instagram, ExternalLink } from "lucide-react";
 
 export const Header = () => {
-  const navigate = useNavigate();
-
-  const handleProjectsClick = () => {
-    window.location.href = "https://www.google.com?ref=technomax";
-  };
-
   return (
-    <header className="fixed top-0 w-full bg-background/80 backdrop-blur-md border-b border-border z-50">
-      <div className="container h-16 px-4 sm:px-6 lg:px-8 flex items-center justify-between">
-        <div className="text-xl font-bold text-accent">Doğukan</div>
-        
-        <nav className="flex items-center gap-4">
-          <button
-            onClick={handleProjectsClick}
-            className="px-4 py-2 rounded-lg bg-primary text-primary-foreground font-semibold hover:bg-accent transition-colors duration-300 text-sm sm:text-base"
+    <header className="fixed top-0 w-full bg-background/40 backdrop-blur-xl border-b border-border/30 z-50">
+      <div className="container h-20 px-4 sm:px-6 lg:px-8 flex items-center justify-between">
+        {/* Left side - Wicenta branding */}
+        <div className="flex items-center gap-2">
+          <div className="text-2xl sm:text-3xl font-bold tracking-wider">
+            <span className="bg-gradient-to-r from-accent via-primary to-accent bg-clip-text text-transparent">
+              Wicenta
+            </span>
+          </div>
+        </div>
+
+        {/* Right side - Navigation */}
+        <nav className="flex items-center gap-3 sm:gap-4">
+          <a
+            href="mailto:swicenta@gmail.com"
+            className="p-2 rounded-lg bg-primary/20 hover:bg-primary/40 transition-all duration-300 text-accent hover:text-accent/80"
+            title="Email"
+          >
+            <Mail size={20} />
+          </a>
+
+          <a
+            href="https://instagram.com/dogukan.1967"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="p-2 rounded-lg bg-primary/20 hover:bg-primary/40 transition-all duration-300 text-accent hover:text-accent/80"
+            title="Instagram"
+          >
+            <Instagram size={20} />
+          </a>
+
+          <a
+            href="https://www.google.com?ref=technomax"
+            className="px-4 py-2 rounded-lg bg-accent text-accent-foreground font-semibold hover:bg-primary hover:shadow-lg hover:shadow-accent/50 transition-all duration-300 text-sm sm:text-base flex items-center gap-2"
           >
             Projelerim
-          </button>
+            <ExternalLink size={16} />
+          </a>
         </nav>
       </div>
     </header>
